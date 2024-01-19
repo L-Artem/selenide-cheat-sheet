@@ -3,6 +3,15 @@ https://demoqa.com/buttons - примеры контролов
 
 https://wp-kama.ru/id_5875/30-css-selektorov.html#selectall
 
+Консоль девтулс
+элемент
+$("")
+$("[]")
+
+массив элементов
+$$("")
+
+
 
 *				Все элементы.
 :root				Корень документа.
@@ -77,6 +86,10 @@ div:focus-within				Сработает на блоке, когда его вну
 input::placeholder				Все <input> у которых указан атрибут "placeholder".
 
 
+
+
+
+
 Группировка
 .selector1, code, #id
 Перечисления через запятую.
@@ -97,6 +110,10 @@ article h3
 
 
 
+
+
+
+
 Примеры
 $("")
 $("[]")
@@ -105,7 +122,7 @@ $("[type=button].header-search-button")
 $("#query-builder-test")
 $("div[data-testid=results-list]")
 
-
+$$(".Popover .Popover-message")
 
 
 body > div.logged-out.env-production.page-responsive > div.application-main > main > react-app > div > div > div.Box-sc-g0xbh4-0.emundt > div > div > div.Box-sc-g0xbh4-0.kKUpQe > div.Box-sc-g0xbh4-0.hlUAHL > div > div.Box-sc-g0xbh4-0.gytyqX > div.Box-sc-g0xbh4-0.kzrAHr > div > div > div:nth-child(1) > div > div.Box-sc-g0xbh4-0.jUbAHB > h3 > div > div.Box-sc-g0xbh4-0.bBwPjs.search-title

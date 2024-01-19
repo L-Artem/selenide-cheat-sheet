@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="frst">
-      <change afterPath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001- 03les">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OtherBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/TestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +43,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.TestClass.fratSelenide">
     <configuration name="TestClass.fratSelenide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="PACKAGE_NAME" value="QAGU" />
+      <option name="MAIN_CLASS_NAME" value="QAGU.TestClass" />
       <option name="METHOD_NAME" value="fratSelenide" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -59,8 +60,8 @@
     </configuration>
     <configuration name="TestClass.frstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="PACKAGE_NAME" value="QAGU" />
+      <option name="MAIN_CLASS_NAME" value="QAGU.TestClass" />
       <option name="METHOD_NAME" value="frstTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705300569868</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="001- 03les">
+      <created>1705655985894</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705655985894</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="frst" />
-    <option name="LAST_COMMIT_MESSAGE" value="frst" />
+    <MESSAGE value="001- 03les" />
+    <option name="LAST_COMMIT_MESSAGE" value="001- 03les" />
   </component>
 </project>

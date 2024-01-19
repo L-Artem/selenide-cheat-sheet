@@ -1,3 +1,5 @@
+package QAGU;
+
 import com.codeborne.selenide.*;
 import org.junit.Assert;
 import org.junit.Test;
@@ -49,11 +51,18 @@ public class TestClass {
         //$$("div[data-testid=results-list] div a").get(3).click();
         //$("a[href*=selenide]").shouldHave(text("selenide")).click();
 
-        //подвести мышку к первому аватару
+        //подвести мышку к первому аватару // аналог ancestor closest предок
         $(".BorderGrid").$(byText("Contributors")).ancestor(".BorderGrid-row")
                 .$$("ul li").first().hover();
 
         //поставить выполнение в браузере на паузу F8
+        // поставить выполнение на паузу, набрать в консоли
+        //setTimeout(function(){debugger},4000)
+
+        // клик по первому видимому элементу, если есть еще точно такой же невидимый (размер 0x0).
+        $$(".Popover .Popover-message").findBy(visible).shouldHave(text("Andrei Solntsev"));
+
+
 
         sleep(5000);
     }
