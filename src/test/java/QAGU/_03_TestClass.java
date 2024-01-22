@@ -1,22 +1,19 @@
 package QAGU;
 
-import com.codeborne.selenide.*;
-import org.junit.Assert;
+import com.codeborne.selenide.Configuration;
 import org.junit.Test;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.*;
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
-public class TestClass {
+public class _03_TestClass {
 
     @Test
     public void frstTest() {
@@ -40,10 +37,13 @@ public class TestClass {
         Configuration.browserBinary = pathBrowser;
         Configuration.browserSize = "1920x1080";
         open("https://github.com/");
-        //элемент
+        //css элемент
         //$("")
-        // коллекция элементов
+        //css коллекция элементов
         //$$()
+        // xpath селектор
+        //$x("")
+
         $("[type=button].header-search-button").click();
         $("#query-builder-test").setValue("selenide").pressEnter();
 
@@ -62,7 +62,9 @@ public class TestClass {
         // клик по первому видимому элементу, если есть еще точно такой же невидимый (размер 0x0).
         $$(".Popover .Popover-message").findBy(visible).shouldHave(text("Andrei Solntsev"));
 
-
+        //$(byText("popover")); - для поиска элементов
+        //$(".popover").shouldHave(text("text")); - для проверок
+        //$(".popover").shouldBe(visible);
 
         sleep(5000);
     }
