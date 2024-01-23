@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002- 03les">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_QAGU.java" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001- 04les">
+      <change afterPath="$PROJECT_DIR$/cheatSheet/HTML_info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_03_TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_QAGU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_QAGU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit._03_TestClass.fratSelenide">
+  <component name="RunManager" selected="JUnit._04_Lesson_QAGU.command_examples">
     <configuration name="_03_TestClass.fratSelenide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <option name="PACKAGE_NAME" value="QAGU" />
@@ -69,8 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_04_Lesson_QAGU.command_examples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QAGU.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QAGU" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._04_Lesson_QAGU" />
+      <option name="METHOD_NAME" value="command_examples" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._04_Lesson_QAGU.command_examples" />
         <item itemvalue="JUnit._03_TestClass.fratSelenide" />
         <item itemvalue="JUnit._03_TestClass.frstTest" />
       </list>
@@ -106,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705659805090</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="001- 04les">
+      <created>1705906055532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705906055532</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +149,7 @@
     <MESSAGE value="frst" />
     <MESSAGE value="001- 03les" />
     <MESSAGE value="002- 03les" />
-    <option name="LAST_COMMIT_MESSAGE" value="002- 03les" />
+    <MESSAGE value="001- 04les" />
+    <option name="LAST_COMMIT_MESSAGE" value="001- 04les" />
   </component>
 </project>
