@@ -6,6 +6,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.Test;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -69,6 +70,38 @@ public class _04_Lesson_QAGU {
         $("div").preceding(1).click(); // второй сосед выше
         $("div").closest("h3"); // найти ближайший предок h3
         $("div").ancestor("h3"); // тоже самое // найти ближайший предок h3
-        $("div")
+        $("div:last-child"); //поиск с учетом псевдоэлеменов, работают не все
+
+        $("div").$("h1").find(byText("abc")).click(); //найти div, потом h1, потом элменет с текстом и кликнуть.
+        // нельзя начинать с find
+
+        $(byAttribute("name", "val")).click();
+        $("[name=val]").click(); // эквивалентно
+
+        $(byId("idName")).click();
+        $("#idName").click(); // эквивалентно
+
+        $(byClassName("className")).click();
+        $(".className").click(); // эквивалентно
+
+    }
+
+    void actions_examples() {
+        $("div").click();
+        $("div").doubleClick();
+        $("div").contextClick(); // правая кнопка мыши
+        $("div").hover();
+        $("div").setValue("text"); // все сотрет и напешет заново
+        $("div").append("text"); // добавит в конец
+        $("div").clear(); // не всегда работает
+        $("div").setValue(""); // эквивалентно
+
+        $("div").sendKeys("c"); // нажатие клавиши на элементе
+        actions().sendKeys("c").perform(); // нажатие клавиши без привязки к элементу
+        actions().sendKeys(Keys.chord(Keys.CONTROL, "f")); // комбинация клавиш ctrl+f
+        $("html").sendKeys(Keys.chord(Keys.CONTROL, "f")); // эквивалентно
+
+
+
     }
 }
