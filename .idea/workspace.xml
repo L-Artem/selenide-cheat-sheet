@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002- 04les">
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="003- 04les">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_QAGU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_QAGU.java" afterDir="false" />
     </list>
@@ -136,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706003234792</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="003- 04les">
+      <created>1706027394102</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706027394102</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +163,7 @@
     <MESSAGE value="002- 03les" />
     <MESSAGE value="001- 04les" />
     <MESSAGE value="002- 04les" />
-    <option name="LAST_COMMIT_MESSAGE" value="002- 04les" />
+    <MESSAGE value="003- 04les" />
+    <option name="LAST_COMMIT_MESSAGE" value="003- 04les" />
   </component>
 </project>

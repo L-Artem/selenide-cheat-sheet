@@ -1,13 +1,15 @@
 package QAGU;
 
-import com.codeborne.selenide.AuthenticationType;
-import com.codeborne.selenide.BasicAuthCredentials;
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.WebDriverRunner;
+// https://github.com/qa-guru/
+
+import com.codeborne.selenide.*;
 import org.junit.Test;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Keys;
 
+import java.time.Duration;
+
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -101,6 +103,69 @@ public class _04_Lesson_QAGU {
         actions().sendKeys(Keys.chord(Keys.CONTROL, "f")); // комбинация клавиш ctrl+f
         $("html").sendKeys(Keys.chord(Keys.CONTROL, "f")); // эквивалентно
 
+        $("").pressEnter();
+        $("").pressEscape();
+        $("").pressTab();
+
+        actions().moveToElement($("div")).clickAndHold().moveByOffset(300, 200).release().perform(); // драгэнддроп
+        // переместить мышку на див,
+        // зажать кнопку,
+        // сместить вниз вправо,
+        // отпустить (release)
+
+        $("select").selectOption("text_name"); // классический дроп дауны
+        $("select").selectOptionByValue("val");
+
+        $("").selectRadio("radio)optins"); // классические радиокнопки
+    }
+
+    void assertions_examples() {
+        // логически shouldBe/shouldHave/should одно и то же, нужно для более выразительного синтаксиса
+        $("").shouldBe(visible);
+        $("").shouldNotBe(visible);
+        $("").shouldHave(text("abs"));
+        $("").shouldNotHave(text("abc"));
+        $("").should(appear);
+        $("").shouldNot(appear);
+
+        $("").shouldBe(visible, Duration.ofSeconds(30)); // определить тайм аут для ожидания отображения конкретного элемента
+    }
+
+    void conditions_examples() {
+        $("").shouldBe(visible);
+        $("").shouldBe(hidden);
+
+        $("").shouldHave(text("abc")); // поиск по части
+        $("").shouldHave(exactText("abc")); // точное совпадение
+        $("").shouldHave(textCaseSensitive("abc")); // с учетом регистра
+        $("").shouldHave(exactTextCaseSensitive("abc")); // с учетом регистра
+        $("").should(matchText("[0-9]abc$")); //regexp регулярные выражения
+
+        $("").shouldHave(cssClass("class-name-1"), cssClass("class-name-2")); // элемент с двумя классами
+        $("").shouldHave(cssValue("color", "red")); // css свойства элемента
+
+        $("").shouldHave(value("inputTest")); // проверка введенного текста
+        $("").shouldHave(exactValue("inputTest")); // точное совпадение
+        $("").shouldBe(empty); // проверка что поле пустое
+
+        $("").shouldHave(attribute("disabled")); //??? существует атрибюут
+        $("").shouldHave(attribute("name", "value")); // проверка что у такого атрибута такое значение
+        $("").shouldHave(attributeMatching("name", "[0-9]abc$"))// использование regExp
+
+        $("").shouldBe(checked); // чекбокс выбран
+        $("").shouldNotBe(checked); // чекбокс НЕ выбран
+
+        $("").should(exist); // элемент существует в ДОМ модели, может быть невидимым
+        $("").shouldBe(disabled); // для кнопок, проверка на дисэйблед, работа зависит от реализации.
+        $("").shouldBe(enabled); // для кнопок
+
+    }
+
+    void collectons_examples() {
+
+        $("").;
+        $("").;
+        $("").;
 
 
     }
