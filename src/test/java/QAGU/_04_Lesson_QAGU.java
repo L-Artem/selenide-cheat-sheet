@@ -9,6 +9,7 @@ import org.openqa.selenium.Keys;
 
 import java.time.Duration;
 
+import static com.codeborne.selenide.CollectionCondition.*;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -163,10 +164,34 @@ public class _04_Lesson_QAGU {
 
     void collectons_examples() {
 
-        $("").;
-        $("").;
-        $("").;
+        $$("div"); // ничего не делает, нужно лействие, просто выберет все дивы
+        $$x("//div"); // тоже самое только для xpath
 
+        $$("div").filterBy(text("123")).shouldHave(size(1)); // поиск в коллекции элементов с текстом 123 сайз 1
+        $$("div").excludeWith(text("123")).shouldHave(size(1)); // исключение из коллекции элементов соответствующих 123 сайз 1
 
+        $$("div").first().click(); // первый див в коллекции
+        elements("div").first().click(); // аналог $$
+        $$("div").last().click(); // последний див в коллекции
+
+        $$("div").get(1).click(); // второй див в коллекции
+        $("div", 1).click(); // второй найденный див
+
+        $$("div").findBy(text("123")).click(); // findBy уточняет поиск и берет первый элемент
+
+        // assertions
+        $$("div").shouldHave(size(0)); // количество найденных дивов = 0
+        $$("div").shouldBe(CollectionCondition.empty); // эквивалентно
+
+        $$("div").shouldHave(texts("AA", "BB", "CC")); // в коллекции должны быть только AA BB CC, если будет и DD будет ошибка.
+        // текст проверяется по вхождению AA = AAB, учитывается порядок значений
+        $$("div").shouldHave(exactTexts("AA", "BB", "CC")); // эквивалентно, но точное совпадение текста
+
+        $$("div").shouldHave(textsInAnyOrder("BB", "AA", "CC")); // эквивалентно texts(), без учета порядка значений
+        $$("div").shouldHave(exactTextsCaseSensitiveInAnyOrder("BB", "AA", "CC")); // эквивалентно, с учетом регистра
+
+        $$("div").should();
+        $$("div").should();
+        $$("div").should();
     }
 }
