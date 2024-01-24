@@ -7,6 +7,8 @@ import org.junit.Test;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Keys;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.time.Duration;
 
 import static com.codeborne.selenide.CollectionCondition.*;
@@ -190,8 +192,32 @@ public class _04_Lesson_QAGU {
         $$("div").shouldHave(textsInAnyOrder("BB", "AA", "CC")); // эквивалентно texts(), без учета порядка значений
         $$("div").shouldHave(exactTextsCaseSensitiveInAnyOrder("BB", "AA", "CC")); // эквивалентно, с учетом регистра
 
-        $$("div").should();
-        $$("div").should();
-        $$("div").should();
+        $$("div").shouldHave(itemWithText("text")); // найти в коллекции элемент с текстом text
+
+        $$("div").shouldHave(sizeGreaterThan(0)); // количество элементов больше 0
+        $$("div").shouldHave(sizeGreaterThanOrEqual(1)); // количество элементов больше либо равно 1
+        $$("div").shouldHave(sizeLessThan(2)); // количество элементов меньше 2
+        $$("div").shouldHave(sizeLessThanOrEqual(3)); // количество элементов меньше или равно 3
+
+    }
+
+    void file_operation_examples() throws FileNotFoundException{
+
+        // скачать файл https://www.youtube.com/watch?v=x0KWgnjxsl4&list=PL6h45kwyd3r1sE39ykWsWc2iTVE8AvgQg&index=1
+        File file1 = $("a.fileLink").download(); // скачивание из простых линков
+        File file2 = $("div").download(DownloadOptions.using(FileDownloadMode.FOLDER));
+
+        // загрузить файл с компьютера upload
+        File file = new File("src/test/resources/readme.txt");
+        $("#file-upload").uploadFile(file);
+        $("#file-upload").uploadFromClasspath("readme.txt");
+        $("uploadButton").click(); // не забыть нажать
+
+    }
+
+    void javascript_examples(){
+        executeJavaScript("alert('selenide')");
+        executeJavaScript("alert(argument[0]+argument[1])", "abc", 12);
+        long fortytwo = executeJavaScript( "return argument[0]*argument[1];", 6,7);
     }
 }
