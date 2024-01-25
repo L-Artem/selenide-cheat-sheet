@@ -20,4 +20,7 @@ https://github.com/Amidosha/GenerateSshKey/blob/main/src/md/Generate_Copy_key.md
 git -help
 git status
 git add
-git
+git commit -m "commit_name"
+
+gitIgnore
+!**/src/main/** (!)- означает добавлять эти файлы всегда
