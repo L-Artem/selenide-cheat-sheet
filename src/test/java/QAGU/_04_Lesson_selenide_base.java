@@ -220,5 +220,10 @@ public class _04_Lesson_selenide_base {
         executeJavaScript("alert('selenide')");
         executeJavaScript("alert(argument[0]+argument[1])", "abc", 12);
         long fortytwo = executeJavaScript( "return argument[0]*argument[1];", 6,7);
+        // commit
+    }
+
+    void testVoid(){
+
     }
 }

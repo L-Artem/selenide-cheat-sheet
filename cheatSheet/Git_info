@@ -21,6 +21,11 @@ git -help
 git status
 git add
 git commit -m "commit_name"
+git push -u origin master
+git branch - показать ветки
+git branch new_banch - создать новую ветку
+git checkout new_branch - переключиться на другую ветку
+
 
 gitIgnore
 !**/src/main/** (!)- означает добавлять эти файлы всегда
