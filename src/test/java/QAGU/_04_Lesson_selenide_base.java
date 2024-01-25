@@ -222,8 +222,4 @@ public class _04_Lesson_selenide_base {
         long fortytwo = executeJavaScript( "return argument[0]*argument[1];", 6,7);
         // commit
     }
-
-    void testVoid(){
-
-    }
 }
