@@ -13,13 +13,14 @@ import java.time.Duration;
 
 import static com.codeborne.selenide.CollectionCondition.*;
 import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Condition.empty;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 // команды управления браузером
 // https://the-internet.herokuapp.com/ примеры элементов
 
-public class _04_Lesson_QAGU {
+public class _04_Lesson_selenide_base {
 
     @Test
     public void command_examples() {
@@ -153,7 +154,7 @@ public class _04_Lesson_QAGU {
 
         $("").shouldHave(attribute("disabled")); //??? существует атрибюут
         $("").shouldHave(attribute("name", "value")); // проверка что у такого атрибута такое значение
-        $("").shouldHave(attributeMatching("name", "[0-9]abc$"))// использование regExp
+        $("").shouldHave(attributeMatching("name", "[0-9]abc$")); // использование regExp
 
         $("").shouldBe(checked); // чекбокс выбран
         $("").shouldNotBe(checked); // чекбокс НЕ выбран
@@ -219,5 +220,6 @@ public class _04_Lesson_QAGU {
         executeJavaScript("alert('selenide')");
         executeJavaScript("alert(argument[0]+argument[1])", "abc", 12);
         long fortytwo = executeJavaScript( "return argument[0]*argument[1];", 6,7);
+        // commit
     }
 }
