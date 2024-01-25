@@ -1,0 +1,23 @@
+https://www.toptal.com/developers/gitignore
+Генерация гит игнор
+
+SSH keys
+https://github.com/settings/profile
+SSH and GPG keys
+Позволяет проходить аутентификацию не через логин и пароль за через пару открытый закрытый ключ.
+Mac/Linux
+cd ~/.ssh
+ls -a
+rsa.pub - открытый ключ, без срока, нет ttl
+
+сгенерить ключ
+Mac/Linux
+ssh-keygen -t rsa
+
+Создание ssh для windows
+https://github.com/Amidosha/GenerateSshKey/blob/main/src/md/Generate_Copy_key.md
+
+git -help
+git status
+git add
+git
