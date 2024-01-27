@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 05les">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium/Selenium_doc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cheatSheet/Git_info" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/Git_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_selenide_base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_selenide_base.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -46,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit._04_Lesson_selenide_base.command_examples">
@@ -187,7 +191,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -211,5 +215,9 @@
     <MESSAGE value="006 - 04les" />
     <MESSAGE value="001 - 05les" />
     <option name="LAST_COMMIT_MESSAGE" value="001 - 05les" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
