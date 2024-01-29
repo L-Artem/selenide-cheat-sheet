@@ -3,7 +3,7 @@ package QAGU;
 // https://github.com/qa-guru/
 
 import com.codeborne.selenide.*;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.Keys;
 
@@ -12,8 +12,8 @@ import java.io.FileNotFoundException;
 import java.time.Duration;
 
 import static com.codeborne.selenide.CollectionCondition.*;
-import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Condition.empty;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -221,5 +221,6 @@ public class _04_Lesson_selenide_base {
         executeJavaScript("alert(argument[0]+argument[1])", "abc", 12);
         long fortytwo = executeJavaScript( "return argument[0]*argument[1];", 6,7);
         // commit
+
     }
 }

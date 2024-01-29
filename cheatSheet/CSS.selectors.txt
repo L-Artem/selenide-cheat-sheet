@@ -133,3 +133,7 @@ body > div.logged-out.env-production.page-responsive > div.application-main > ma
 <input id="something_stuff_016_work" />
 
 input[id^='something_stuff_'][id$='_work']
+
+
+Lesson 07 CssXpathExamples
+https://devhints.io/xpath

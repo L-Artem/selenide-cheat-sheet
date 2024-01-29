@@ -1,0 +1,5 @@
+JUnit Jupiter API - ядро JUnit5
+JUnit Jupiter Engine - связка ядря с мавен, грэдл, идея
+JUnit Jupiter Params - для написания параметризованных тестов
+
+JUnit Jupiter (Aggregator) - одна библиотека подключающая все необходимые JUnit5

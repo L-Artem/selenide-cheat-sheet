@@ -1,0 +1,2 @@
+
+wb.findElement(By.xpath(".//td[2]")).getAttribute("class");
