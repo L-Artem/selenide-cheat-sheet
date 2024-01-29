@@ -19,13 +19,19 @@ https://github.com/Amidosha/GenerateSshKey/blob/main/src/md/Generate_Copy_key.md
 
 git -help
 git status
-git add
+git add . - добавить  измененные файлы
 git commit -m "commit_name"
 git push -u origin master
 git branch - показать ветки
 git branch new_banch - создать новую ветку
 git checkout new_branch - переключиться на другую ветку
-
+git checkout -b new_branch - создать и переключиться на ветку
+git push -u origin develop
 
 gitIgnore
 !**/src/main/** (!)- означает добавлять эти файлы всегда
+
+token
+https://github.com/settings/apps
+
+меню Git/Annotate with GIT blame

@@ -1,0 +1,215 @@
+локаторы XPath (XML Path)
+
+Используя XPath, при поиске нужного элемента можно перемещаться как вглубь иерархии дереву документа, так и назад (вверх по дереву).
+CSS, можно двигаться только в глубину.
+
+
+Документ представлет собой дерево сосотящее из узлов(Элементов)
+элемент документа - может быть аннотирован атрибутами содержащие метаданные об элементе и его содержимом)
+«начальный тэг» (<element>)
+	между двумя тэгами (содержимое элемента)
+«конечный тэг» (</element>)
+
+Согласно методологии XPath существует пять типов узлов, которые могут находиться в дереве документа на обычной html странице:
+Корневой узел;
+Узлы элементов;
+Текстовые узлы;
+Узлы атрибутов;
+Узлы комментариев.
+
+В Selenium используется лишь подмножество выражений XPath, называемых маршрутами поиска.
+
+/ - начинается абсолютный путь
+//- начинается относительный путь
+[] - выражение в квадратных скобках предикат, для сужения диапазона поиска элементов
+синктаксис предикатов
+
+//div[@role = 'img'] - элемент div, должен иметь атрибут role со значением img.
+//ol[@class = 'list news__list']/li/a - контекстный узел, задана начальная точка поиска нужных элементов, задано значение "list news__list" для атрибута "class"
+//ol[@class = 'list news__list']//a - тот же запрос что и выше, только промежуточные элементы  заменены //
+//* – соответствует всем элементам, находящимся на странице (включая тег html).
+//div/* – соответствует всем элементам, являющимися непосредственными потомками элемента с тегом div .
+//input[@*] – соответствует всем элементам с тегом input, которые имеют хотя бы один любой атрибут, при этом значение атрибута может быть любым, присутствовать или отсутствовать.
+//*[@*] – соответствует всем элементам на странице, имеющим хотя бы один атрибут.
+//выбор_элементов[правило_предиката1][правило_предиката2][правило_предиката3]
+примеры
+//div[@class='search2__button']/button[@role='button']
+//а[@title='Корзина на Маркете'][@class='home-link market-cart']
+
+Каждый шаг в маршруте поиска может иметь свой предикат или даже несколько, который задает свой критерий выбора из текущего списка узлов на каждом шаге маршрута поиска.
+
+Индекс указания позиции элемента
+ индексы элементов начинают отсчитываться от 1
+
+//ol[@class='list news__list']/li[2] - поулчить элемент
+//ol[@class='list news__list']/li[2]//span[@class='news__item-content'] - получить тесктовое содержимое
+
+логические операторы OR и AND
+//a[@rel='noopener' or @target='_blank']
+//a[@rel='noopener' and @target='_blank']
+//a[@rel='noopener' and @target='_blank' and contains(@class, 'home-link_black_yes')]
+
+
+функции языка XPath
+text() - для поиска элементов которые имеют содержание ввиде строки:
+<span class="button__text">Найти</span>
+//span[text()='Найти']
+
+contains() - используется в предикатах выражений XPath, если значение атрибута элемента или его текстовое содержимое может динамически изменяться.
+//element[contains(@class, 'class1 class2')]
+//a[contains(@title, 'Корзина')]
+//span[contains(text(),'Найти')]
+
+starts-with() - используется если известна первая часть (начальная подстрока) текстового содержимого искомого элемента на странице, или часть значения его атрибута.
+//a[starts-with(@title, 'Корзина')]
+//span[starts-with(text(),'Найти')]
+
+
+last() - возвращает элемент, содержащий наименование последней новости из списка новостей со страницы поисковика Яндекс.
+//ol[@class='list news__list']/li[last()]//span[@class='news__item-content']
+
+position() - Действие этой функции полностью идентично индексам
+
+//ol[@class='list news__list']/li[position()=1]"))
+//ol[@class='list news__list']/li[1] - эквивалентно
+
+
+полные маршруты поиска элементов ::
+//ol/li/a[@rel='noopener']
+//child::ol/child::li/child::a[@rel='noopener'] - эквивалентно
+
+Ось предков (ancestor axis) - Все узлы элементов, содержащие контекстный узел; родительский узел, родитель родителя, родитель родителя родителя и т.д. вверх вплоть до корневого узла в порядке, обратном расположению узлов в документе.
+//div[text()='Маркет']//ancestor::a
+//div[text()='Маркет']//ancestor::*
+получаем ссылку на Яндекс Маркет по текстовому содержимому элемента div находящегося внутри нее. А следующее выражение позволяет выбрать последовательность всех предков этого элемента до корня документа /html.
+
+
+Ось следующих одноуровневых узлов (following-sibling axis) - Все узлы элементов страницы, следующие за контекстным узлом и содержащиеся в том же узле родительского элемента, в том же порядке, в каком элементы расположены в документе.
+//div[contains(@class, 'home-logo')]//following-sibling::div - выбирает блок div по содержимому атрибута класса, который содержит элементы строки ввода слов для поиска.
+
+//*[@id='mglep_daily_planning_sendmodemes_field']/following-sibling::a[@class='actionbtn']
+
+Ось следующих узлов (following axis)
+//div[contains(@class, 'home-logo')]//following::div
+
+Ось предыдущих одноуровневых узлов (preceding-sibling axis)
+//div[contains(@class, 'search2__input')]//preceding-sibling::input[@type='hidden']
+
+Ось предыдущих узлов (preceding axis)
+//div[contains(@class, 'home-logo')]//preceding::div
+
+Ось потомков, включая контекстный узел (descendant-or-self axis)
+/div[contains(@class, 'home-arrow__search-wrapper')]//descendant-or-self ::*
+
+Ось предков, включая контекстный узел (ancestor-or-self axis)
+//div[contains(@class, 'home-arrow__search-wrapper')]//ancestor-or-self::*
+
+
+
+from selenium.webdriver import Chrome
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+import os
+import time
+from pprint import pprint
+# тестовая страница, на которой мы ищем
+target_page = "https://yandex.ru/"
+# то самое выражение XPath, которое мы тестируем
+xpath_testing = "//div[contains(@class, 'home-logo')]//child::*"
+dir_current = os.getcwd()
+driverLocation = dir_current + "\chromedriver.exe"
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = Chrome(driverLocation, chrome_options=chrome_options)
+data_text = driver.get(target_page)
+time.sleep(3)
+try:
+    elements_ = driver.find_elements(By.XPATH, xpath_testing)
+
+    for element_ in elements_:
+        pprint(f"Выбран элемент с тегом: \"{element_.tag_name }\"")
+        pprint(f"Содержимое атрибута class: \"{element_.get_attribute('class')}\"")
+        pprint(f"Текстовое содержимое элемента: {'Нет содержимого' if not element_.text else element_.text}")
+
+except:
+    print('Элемент по заданному XPath выражению не найден :(')
+
+finally:
+    driver.quit()
+
+//===========================================================
+public List<String> getHoursWhereYellowLine() {
+
+	List<String> hoursWhereYellowLine1 = new ArrayList<>();
+
+	List<WebElement> elements2 = webd.findElement(TABLE_RESULT_RIGHT).findElements(By.xpath("//tr[contains(@style,'background-color:#FFFFCE')]/td[1]"));
+
+	for (WebElement e : elements2) {
+		hoursWhereYellowLine1.add(e.getText());
+	}
+	return hoursWhereYellowLine1;
+}
+//===========================================================
+
+//Вариант 1
+WebElement parent = driver.findElement(By.xpath("//a/li"));
+WebElement date = parent.findElement(By.xpath("ul/span[contains(@class, 'child-date')]"));
+
+//Вариант 2
+WebElement parent = driver.findElement(By.xpath("//a/li"));
+WebElement date = parent.findElement(By.xpath("//span[contains(@class, 'child-date')]"));
+
+//Вариант 3
+WebElement parent = driver.findElement(By.xpath("//a/li"));
+WebElement date = parent.findElement(By.xpath("div//span[contains(@class, 'child-date')]"));
+
+
+
+<a>
+<li> parent 1
+    <div>
+        <span class="child-title child-style">title 1</span>
+        <span class="child-date child-style"> date 1</span>
+        <span class="child-author">author 1</span>
+    </div>
+</li>
+</a>
+<a>
+<li> parent 2
+    <div>
+		<div>
+		  <span class="child-title child-style">title 2</span>
+		  <span class="child-date child-style"> date 2</span>
+		  <span class="child-author">author 2</span>
+		</div>
+    </div>
+</li>
+</a>
+
+
+public class MyClass{
+	abstract
+}
+
+
+/html/body/main/article/div/div[2]/div/ul[2]/li[1]/span/span[2]/input
+
+//span/span[2]/input
+//span[@class='paging2']/span[2]/input
+
+
+/html/body/main/article/div/div[3]/table/tbody/tr[2]/td[4]
+/html/body/main/article/div/div[3]
+
+//table[@id='askue2errorlog_list']/tbody/tr/td[4]
+
+
+//*[@id="askue2errorlog_list"]
+
+
+
+
+
+//table[@id="expl_settings_admin_list"]/tbody/tr/td/a[text()='Наименование параметра']/../following-sibling::td/a/i[contains(@class,"icon-delete")]
+//*[text()='Наименование параметра']/../..//*[@class='icon icon-delete']
+//*[text()='Наименование параметра']/../..//*[@class='icon icon-delete']

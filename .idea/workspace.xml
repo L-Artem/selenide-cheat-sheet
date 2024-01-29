@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 05les">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 07les">
+      <change afterPath="$PROJECT_DIR$/cheatSheet/QA_theor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheatSheet/Selenium_info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cheatSheet/junit_info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_07_LessJunit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheatSheet/Git_info" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/Git_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheatSheet/HelpfulLinks" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/HelpfulLinks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheatSheet/XPath_info" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/XPath_info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OtherBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/OtherBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_03_TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_03_TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_selenide_base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_selenide_base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Selenium_doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Selenium_doc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -46,10 +60,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+    "last_directory_selection": "C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU",
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit._04_Lesson_selenide_base.command_examples">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="QAGU" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit._07_LessJunit.fillForm">
     <configuration name="_03_TestClass.fratSelenide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <option name="PACKAGE_NAME" value="QAGU" />
@@ -74,7 +94,7 @@
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU.*" />
+          <option name="PATTERN" value="Selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_07_LessJunit.fillForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QAGU" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._07_LessJunit" />
+      <option name="METHOD_NAME" value="fillForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._07_LessJunit.fillForm" />
         <item itemvalue="JUnit._04_Lesson_selenide_base.command_examples" />
         <item itemvalue="JUnit._03_TestClass.fratSelenide" />
         <item itemvalue="JUnit._03_TestClass.frstTest" />
@@ -173,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706186834422</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="001 - 07les">
+      <created>1706378175703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706378175703</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +231,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -210,6 +254,11 @@
     <MESSAGE value="005- 04les" />
     <MESSAGE value="006 - 04les" />
     <MESSAGE value="001 - 05les" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 - 05les" />
+    <MESSAGE value="001 - 07les" />
+    <option name="LAST_COMMIT_MESSAGE" value="001 - 07les" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
