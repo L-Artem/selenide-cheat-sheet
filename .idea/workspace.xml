@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 07les">
-      <change afterPath="$PROJECT_DIR$/cheatSheet/QA_theor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheatSheet/Selenium_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cheatSheet/junit_info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_07_LessJunit.java" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 07les">
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_09_Less_java.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheatSheet/HelpfulLinks" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/HelpfulLinks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheatSheet/XPath_info" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/XPath_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OtherBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/OtherBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_03_TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_03_TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_selenide_base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_04_Lesson_selenide_base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium/Selenium_doc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium/Selenium_doc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_07_LessJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_07_LessJunit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706378175703</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="002 - 07les">
+      <created>1706554768608</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706554768608</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +252,8 @@
     <MESSAGE value="006 - 04les" />
     <MESSAGE value="001 - 05les" />
     <MESSAGE value="001 - 07les" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 - 07les" />
+    <MESSAGE value="002 - 07les" />
+    <option name="LAST_COMMIT_MESSAGE" value="002 - 07les" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
