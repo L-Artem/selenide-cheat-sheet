@@ -1,2 +1,18 @@
 
 wb.findElement(By.xpath(".//td[2]")).getAttribute("class");
+            System.out.println("getAttribute " + wb.findElement(By.xpath(".//td[2]")).getAttribute("class"));
+            System.out.println("getDomProperty " + wb.findElement(By.xpath(".//td[2]")).getDomProperty("className"));
+            System.out.println("getDomAttribute " + wb.findElement(By.xpath(".//td[2]")).getDomAttribute("className"));
+            System.out.println("getTagName " + wb.findElement(By.xpath(".//td[2]")).getTagName());
+            System.out.println("getCssValue " + wb.findElement(By.xpath(".//td[2]")).getCssValue("className"));
+            System.out.println("getAccessibleName " + wb.findElement(By.xpath(".//td[2]")).getAccessibleName());
+            System.out.println("getAriaRole " + wb.findElement(By.xpath(".//td[2]")).getAriaRole());
+            System.out.println("getLocation " + wb.findElement(By.xpath(".//td[2]")).getLocation());
+            System.out.println("getRect " + wb.findElement(By.xpath(".//td[2]")).getRect());
+            //System.out.println("getShadowRoot " + wb.findElement(By.xpath(".//td[2]")).getShadowRoot());
+            System.out.println("getSize " + wb.findElement(By.xpath(".//td[2]")).getSize());
+
+
+            if (!wb.findElement(By.xpath(".//td[2]")).getAttribute("class").equals("incompletedata")) {
+                System.out.println("===");
+            }

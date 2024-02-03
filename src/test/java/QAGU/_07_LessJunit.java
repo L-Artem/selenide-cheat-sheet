@@ -33,7 +33,8 @@ public class _07_LessJunit {
 
         $("#userName").setValue("Ivan Pupkin");
         $("[id=userEmail]").setValue("qqq@www.ee");
-        $("#currentAddress").setValue("some address 1");
+        //$("#currentAddress").setValue("some address 1");
+        $("#currentAddress").val("some address 1");
         $("#permanentAddress").setValue("other address 1");
         $("#submit").click();
 
