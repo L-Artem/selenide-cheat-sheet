@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 09les">
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 09les">
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/RegistrationWithPageObjectsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/pages/CalendarComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/pages/RegistrationResultsModal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/описание" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheatSheet/Selenium_info" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/Selenium_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_09_Less_java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_09_Less_java.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,23 @@
       <recent name="QAGU" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._07_LessJunit.fillForm">
+  <component name="RunManager" selected="JUnit.RegistrationWithPageObjectsTests.successfulRegistrationTest">
+    <configuration name="RegistrationWithPageObjectsTests.successfulRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QAGU._10_Less_PageObject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QAGU._10_Less_PageObject" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._10_Less_PageObject.RegistrationWithPageObjectsTests" />
+      <option name="METHOD_NAME" value="successfulRegistrationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_03_TestClass.fratSelenide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <option name="PACKAGE_NAME" value="QAGU" />
@@ -114,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationWithPageObjectsTests.successfulRegistrationTest" />
         <item itemvalue="JUnit._07_LessJunit.fillForm" />
         <item itemvalue="JUnit._04_Lesson_selenide_base.command_examples" />
         <item itemvalue="JUnit._03_TestClass.fratSelenide" />
@@ -221,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706767396874</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="002 - 09les">
+      <created>1706813377315</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706813377315</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +289,8 @@
     <MESSAGE value="001 - 07les" />
     <MESSAGE value="002 - 07les" />
     <MESSAGE value="001 - 09les" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 - 09les" />
+    <MESSAGE value="002 - 09les" />
+    <option name="LAST_COMMIT_MESSAGE" value="002 - 09les" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
