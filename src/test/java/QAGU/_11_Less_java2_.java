@@ -1,7 +1,5 @@
 package QAGU;
 
-import java.util.Map;
-
 public class _11_Less_java2_ {
 
     public static void main(String[] args) {
@@ -22,7 +20,6 @@ public class _11_Less_java2_ {
         return "";
     }
 
-    Map
 }
 
 
