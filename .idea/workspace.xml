@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 11less - collections">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MasterCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MirCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/PaymentSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/UnionPayCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/VisaCard.java" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 11less - OOP">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheatSheet/JavaCollectionsFramework" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/JavaCollectionsFramework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MasterCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MasterCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MirCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MirCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/UnionPayCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/UnionPayCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/VisaCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/VisaCard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +39,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="9ac0fd34-b111-41db-a1ab-ae1f05837d1f" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ayp5tSgmOmOpakfiyR92v1U2aj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,16 +53,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "NewForEducate",
     "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU",
-    "last_opened_file_path": "C:/JAVA/jdk-21.0.2/lib",
+    "last_opened_file_path": "C:/Git.Selenium/selenide-cheat-sheet",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2353952",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,7 +73,20 @@
       <recent name="QAGU" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._11_Less_java2">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QAGU._11_Less_OOP.Main" />
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QAGU._11_Less_OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_11_Less_java2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
       <option name="MAIN_CLASS_NAME" value="QAGU._11_Less_java2" />
@@ -133,31 +146,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_07_LessJunit.fillForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide-cheat-sheet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QAGU" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._07_LessJunit" />
-      <option name="METHOD_NAME" value="fillForm" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application._11_Less_java2" />
         <item itemvalue="Application._11_Less_java2_" />
         <item itemvalue="JUnit._03_TestClass.frstTest" />
         <item itemvalue="JUnit.RegistrationWithPageObjectsTests.successfulRegistrationTest" />
-        <item itemvalue="JUnit._07_LessJunit.fillForm" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -287,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707326704806</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="001 - 11less - OOP">
+      <created>1707411348805</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707411348805</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +342,8 @@
     <MESSAGE value="003 - 09les - example test development" />
     <MESSAGE value="001 - 11less - collections" />
     <MESSAGE value="002 - 11less - collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="002 - 11less - collections" />
+    <MESSAGE value="001 - 11less - OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="001 - 11less - OOP" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
