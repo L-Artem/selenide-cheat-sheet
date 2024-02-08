@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 11less - collections">
-      <change afterPath="$PROJECT_DIR$/cheatSheet/число_по_модулю" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 11less - collections">
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MasterCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MirCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/PaymentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/UnionPayCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/VisaCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheatSheet/HelpfulLinks" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/HelpfulLinks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cheatSheet/JavaCollectionsFramework" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/JavaCollectionsFramework" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_java2_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_java2_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,10 +61,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.preview.features.used": "true",
     "last_directory_selection": "C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU",
+    "last_opened_file_path": "C:/JAVA/jdk-21.0.2/lib",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2353952",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -272,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707073488851</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="002 - 11less - collections">
+      <created>1707326704806</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707326704806</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,7 +330,8 @@
     <MESSAGE value="002 - 09les" />
     <MESSAGE value="003 - 09les - example test development" />
     <MESSAGE value="001 - 11less - collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 - 11less - collections" />
+    <MESSAGE value="002 - 11less - collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="002 - 11less - collections" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
