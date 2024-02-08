@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 09les">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/RegistrationWithPageObjectsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/pages/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/pages/RegistrationResultsModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/описание" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 11less - collections">
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MasterCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/MirCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/PaymentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/UnionPayCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_11_Less_OOP/data/VisaCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cheatSheet/JavaCollectionsFramework" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/JavaCollectionsFramework" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,8 +59,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.preview.features.used": "true",
     "last_directory_selection": "C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU",
-    "settings.editor.selected.configurable": "terminal"
+    "last_opened_file_path": "C:/JAVA/jdk-21.0.2/lib",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2353952",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,7 +73,34 @@
       <recent name="QAGU" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegistrationWithPageObjectsTests.successfulRegistrationTest">
+  <component name="RunManager" selected="Application._11_Less_java2">
+    <configuration name="_11_Less_java2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._11_Less_java2" />
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QAGU.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_11_Less_java2_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QAGU._11_Less_java2_" />
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QAGU.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistrationWithPageObjectsTests.successfulRegistrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
@@ -80,37 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03_TestClass.fratSelenide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide-cheat-sheet" />
-      <option name="PACKAGE_NAME" value="QAGU" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._03_TestClass" />
-      <option name="METHOD_NAME" value="fratSelenide" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_03_TestClass.frstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide-cheat-sheet" />
-      <option name="PACKAGE_NAME" value="QAGU" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._03_TestClass" />
-      <option name="METHOD_NAME" value="frstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_04_Lesson_selenide_base.command_examples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium.*" />
+          <option name="PATTERN" value="QAGU.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="QAGU" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._04_Lesson_selenide_base" />
-      <option name="METHOD_NAME" value="command_examples" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._03_TestClass" />
+      <option name="METHOD_NAME" value="frstTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._11_Less_java2" />
+        <item itemvalue="Application._11_Less_java2_" />
+        <item itemvalue="JUnit._03_TestClass.frstTest" />
         <item itemvalue="JUnit.RegistrationWithPageObjectsTests.successfulRegistrationTest" />
         <item itemvalue="JUnit._07_LessJunit.fillForm" />
-        <item itemvalue="JUnit._04_Lesson_selenide_base.command_examples" />
-        <item itemvalue="JUnit._03_TestClass.fratSelenide" />
-        <item itemvalue="JUnit._03_TestClass.frstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +266,28 @@
       <option name="project" value="LOCAL" />
       <updated>1706813377315</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="003 - 09les - example test development">
+      <created>1706950533651</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706950533651</updated>
+    </task>
+    <task id="LOCAL-00016" summary="001 - 11less - collections">
+      <created>1707073488851</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707073488851</updated>
+    </task>
+    <task id="LOCAL-00017" summary="002 - 11less - collections">
+      <created>1707326704806</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707326704806</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +328,10 @@
     <MESSAGE value="002 - 07les" />
     <MESSAGE value="001 - 09les" />
     <MESSAGE value="002 - 09les" />
-    <option name="LAST_COMMIT_MESSAGE" value="002 - 09les" />
+    <MESSAGE value="003 - 09les - example test development" />
+    <MESSAGE value="001 - 11less - collections" />
+    <MESSAGE value="002 - 11less - collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="002 - 11less - collections" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
