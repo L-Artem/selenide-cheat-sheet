@@ -11,6 +11,7 @@ public class Main {
         visacard.setBalance(100);
         visacard.payInCountry(RU,75);
         System.out.println(visacard.getBalance());
+        System.out.println();
 
     }
 }
