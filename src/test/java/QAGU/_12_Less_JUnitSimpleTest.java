@@ -33,7 +33,6 @@ public class _12_Less_JUnitSimpleTest {
     })
     // OR!!!
     @CsvFileSource(resources = "/testData.csv")
-    // или @CsvFileSource(files = "src/test/resources/testData.csv")
     @ParameterizedTest(name = "Адрес {1} должен быть в выдаче гугла по запросу {0}")
     //
     @Tags({@Tag("BLOCKER"), @Tag("UI_TEST")})
@@ -45,6 +44,14 @@ public class _12_Less_JUnitSimpleTest {
         $("[id=search]").shouldHave(text(productUrl));
     }
 
+//    static Stream<Arguments> searchResultCountTest(){
+//        return Stream.of(
+//                Arguments.of("Allure testops"),
+//                Arguments.of("Selenuide")
+//        );
+//    }
+//
+//    @MethodSource("searchResultCountTest")
     @ValueSource(
             strings = {"Allure testops", "Selenide"}
     )

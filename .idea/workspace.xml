@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="004 - 11less - OOP">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/Locale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_JUnit5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_JUnitSimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_SelenideTest_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_MiniJunit/MiniJunit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/data12less/Locale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_JUnitSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_JUnitSimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_SelenideTest_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_SelenideTest_.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +36,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "L-Artem"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;L-Artem&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -63,24 +62,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit._12_Less_JUnit5.simpleTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "NewForEducate",
-    "ignore.preview.features.used": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU",
-    "last_opened_file_path": "C:/Git.Selenium/selenide-cheat-sheet",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2353952",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit._12_Less_JUnit5.simpleTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;NewForEducate&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Git.Selenium/selenide-cheat-sheet&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2353952&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="QAGU" />
@@ -106,7 +105,7 @@
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU.*" />
+          <option name="PATTERN" value="QAGU.data12less.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,7 +118,7 @@
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU.*" />
+          <option name="PATTERN" value="QAGU.data12less.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,7 +130,7 @@
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU.*" />
+          <option name="PATTERN" value="QAGU.data12less.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,7 +146,7 @@
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU.*" />
+          <option name="PATTERN" value="QAGU.data12less.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit._12_Less_JUnit5.simpleTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application._11_Less_java2" />
-        <item itemvalue="Application._11_Less_java2_" />
         <item itemvalue="JUnit._03_TestClass.frstTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._11_Less_java2_" />
+        <item itemvalue="Application._11_Less_java2" />
       </list>
     </recent_temporary>
   </component>
