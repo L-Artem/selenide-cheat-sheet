@@ -11,9 +11,8 @@ import java.util.List;
 import java.util.Locale;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
-import static jdk.internal.misc.ThreadFlock.open;
+import static com.codeborne.selenide.Selenide.*;
+
 
 public class _12_Less_JUnitSimpleTest {
     @DisplayName("Демонстрационный тест")

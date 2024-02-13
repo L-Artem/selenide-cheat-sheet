@@ -13,7 +13,8 @@ import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$$;
-import static jdk.internal.misc.ThreadFlock.open;
+import static com.codeborne.selenide.Selenide.open;
+//import static jdk.internal.misc.ThreadFlock.open;
 
 public class _12_Less_SelenideTest_ {
     static Stream<Arguments> selenideLocaleDataProvider() {

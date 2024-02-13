@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="004 - 11less - OOP">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_MiniJunit/MiniJunit.java" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 12less - JUnit">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/FilesParsingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/SelenideFilesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/img/cat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/Locale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/data12less/Locale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_JUnitSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_JUnitSimpleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_SelenideTest_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_SelenideTest_.java" afterDir="false" />
     </list>
@@ -62,81 +67,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit._12_Less_JUnit5.simpleTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;NewForEducate&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Git.Selenium/selenide-cheat-sheet&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2353952&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.FilesParsingTest.pdfParseTest.executor": "Debug",
+    "JUnit.FilesParsingTest.xlsParseTest.executor": "Debug",
+    "JUnit.SelenideFilesTest.selenideLoadTest.executor": "Run",
+    "JUnit.SelenideFilesTest.selenideUploadFile.executor": "Run",
+    "JUnit._12_Less_JUnit5.simpleTest.executor": "Run",
+    "Maven.selenide-cheat-sheet [clean].executor": "Run",
+    "Maven.selenide-cheat-sheet [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "NewForEducate",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU",
+    "last_opened_file_path": "C:/Git.Selenium/selenide-cheat-sheet",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2353952",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="QAGU" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._12_Less_JUnit5.simpleTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QAGU._11_Less_OOP.Main" />
+  <component name="RunManager" selected="JUnit.FilesParsingTest.xlsParseTest">
+    <configuration name="FilesParsingTest.pdfParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU._11_Less_OOP.*" />
+          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
+      <option name="METHOD_NAME" value="pdfParseTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11_Less_java2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._11_Less_java2" />
+    <configuration name="FilesParsingTest.xlsParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU.data12less.*" />
+          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
+      <option name="METHOD_NAME" value="xlsParseTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11_Less_java2_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QAGU._11_Less_java2_" />
+    <configuration name="SelenideFilesTest.selenideLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU.data12less.*" />
+          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.SelenideFilesTest" />
+      <option name="METHOD_NAME" value="selenideLoadTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03_TestClass.frstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelenideFilesTest.selenideUploadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU.data12less.*" />
+          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="QAGU" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._03_TestClass" />
-      <option name="METHOD_NAME" value="frstTest" />
+      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.SelenideFilesTest" />
+      <option name="METHOD_NAME" value="selenideUploadFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilesParsingTest.xlsParseTest" />
+        <item itemvalue="JUnit.FilesParsingTest.pdfParseTest" />
+        <item itemvalue="JUnit.SelenideFilesTest.selenideUploadFile" />
+        <item itemvalue="JUnit.SelenideFilesTest.selenideLoadTest" />
         <item itemvalue="JUnit._12_Less_JUnit5.simpleTest" />
-        <item itemvalue="JUnit._03_TestClass.frstTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application._11_Less_java2_" />
-        <item itemvalue="Application._11_Less_java2" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707556273246</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="002 - 12less - JUnit">
+      <option name="closed" value="true" />
+      <created>1707594657450</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1707594657450</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +432,19 @@
     <MESSAGE value="002 - 11less - OOP" />
     <MESSAGE value="003 - 11less - OOP" />
     <MESSAGE value="004 - 11less - OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="004 - 11less - OOP" />
+    <MESSAGE value="002 - 12less - JUnit" />
+    <option name="LAST_COMMIT_MESSAGE" value="002 - 12less - JUnit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/FilesParsingTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
