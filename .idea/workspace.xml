@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 12less - JUnit">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/FilesParsingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/SelenideFilesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/img/cat.png" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 13less - JUnit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/model/Glossary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestParse.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TxtFile.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/excel.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_JUnitSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_JUnitSimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_SelenideTest_.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_12_Less_SelenideTest_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/FilesParsingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/FilesParsingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +67,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.FilesParsingTest.csvParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.jsonParseImprovedTest.executor": "Run",
+    "JUnit.FilesParsingTest.jsonParseTest.executor": "Run",
     "JUnit.FilesParsingTest.pdfParseTest.executor": "Debug",
     "JUnit.FilesParsingTest.xlsParseTest.executor": "Debug",
+    "JUnit.FilesParsingTest.zipParseTest.executor": "Run",
     "JUnit.SelenideFilesTest.selenideLoadTest.executor": "Run",
     "JUnit.SelenideFilesTest.selenideUploadFile.executor": "Run",
     "JUnit._12_Less_JUnit5.simpleTest.executor": "Run",
@@ -96,8 +97,8 @@
       <recent name="QAGU" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FilesParsingTest.xlsParseTest">
-    <configuration name="FilesParsingTest.pdfParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FilesParsingTest.jsonParseImprovedTest">
+    <configuration name="FilesParsingTest.csvParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
@@ -107,7 +108,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
       <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
-      <option name="METHOD_NAME" value="pdfParseTest" />
+      <option name="METHOD_NAME" value="csvParseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilesParsingTest.jsonParseImprovedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
+      <option name="METHOD_NAME" value="jsonParseImprovedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilesParsingTest.jsonParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
+      <option name="METHOD_NAME" value="jsonParseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideFilesTest.selenideLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilesParsingTest.zipParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
@@ -138,40 +171,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.SelenideFilesTest" />
-      <option name="METHOD_NAME" value="selenideLoadTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelenideFilesTest.selenideUploadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide-cheat-sheet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.SelenideFilesTest" />
-      <option name="METHOD_NAME" value="selenideUploadFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_12_Less_JUnit5.simpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide-cheat-sheet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QAGU.data12less.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QAGU" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._12_Less_JUnit5" />
-      <option name="METHOD_NAME" value="simpleTest" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
+      <option name="METHOD_NAME" value="zipParseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilesParsingTest.jsonParseImprovedTest" />
+        <item itemvalue="JUnit.FilesParsingTest.jsonParseTest" />
+        <item itemvalue="JUnit.FilesParsingTest.zipParseTest" />
+        <item itemvalue="JUnit.FilesParsingTest.csvParseTest" />
         <item itemvalue="JUnit.FilesParsingTest.xlsParseTest" />
-        <item itemvalue="JUnit.FilesParsingTest.pdfParseTest" />
-        <item itemvalue="JUnit.SelenideFilesTest.selenideUploadFile" />
-        <item itemvalue="JUnit.SelenideFilesTest.selenideLoadTest" />
-        <item itemvalue="JUnit._12_Less_JUnit5.simpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707594657450</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="001 - 13less - JUnit">
+      <option name="closed" value="true" />
+      <created>1707850995801</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1707850995801</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,18 +442,8 @@
     <MESSAGE value="003 - 11less - OOP" />
     <MESSAGE value="004 - 11less - OOP" />
     <MESSAGE value="002 - 12less - JUnit" />
-    <option name="LAST_COMMIT_MESSAGE" value="002 - 12less - JUnit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/QAGU/_13_Less_Files/FilesParsingTest.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="001 - 13less - JUnit" />
+    <option name="LAST_COMMIT_MESSAGE" value="001 - 13less - JUnit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
