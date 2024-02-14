@@ -11,9 +11,8 @@ import java.util.List;
 import java.util.Locale;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
-import static jdk.internal.misc.ThreadFlock.open;
+import static com.codeborne.selenide.Selenide.*;
+
 
 public class _12_Less_JUnitSimpleTest {
     @DisplayName("Демонстрационный тест")
@@ -33,7 +32,6 @@ public class _12_Less_JUnitSimpleTest {
     })
     // OR!!!
     @CsvFileSource(resources = "/testData.csv")
-    // или @CsvFileSource(files = "src/test/resources/testData.csv")
     @ParameterizedTest(name = "Адрес {1} должен быть в выдаче гугла по запросу {0}")
     //
     @Tags({@Tag("BLOCKER"), @Tag("UI_TEST")})
@@ -45,6 +43,14 @@ public class _12_Less_JUnitSimpleTest {
         $("[id=search]").shouldHave(text(productUrl));
     }
 
+//    static Stream<Arguments> searchResultCountTest(){
+//        return Stream.of(
+//                Arguments.of("Allure testops"),
+//                Arguments.of("Selenuide")
+//        );
+//    }
+//
+//    @MethodSource("searchResultCountTest")
     @ValueSource(
             strings = {"Allure testops", "Selenide"}
     )
