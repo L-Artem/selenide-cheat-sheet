@@ -1,14 +1,18 @@
-package QAGU._10_Less_PageObject;
+package QAGU._14_Less_DataGeneration.demoqa.tests;
 
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
-public class RegistrationWithPageObjectsTests extends TestBase10 {
+public class RegistrationWithPageObjectsTests extends TestBase14 {
 
     @Test
     void successfulRegistrationTest() {
+
+
+
+
         String userName = "Alex";
 
         registrationPage.openPage()
@@ -54,4 +58,5 @@ public class RegistrationWithPageObjectsTests extends TestBase10 {
         $("#dateOfBirthInput").click();
         // ...
     }
+
 }
