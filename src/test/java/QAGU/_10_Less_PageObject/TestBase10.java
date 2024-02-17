@@ -4,7 +4,7 @@ import QAGU._10_Less_PageObject.pages.RegistrationPage;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 
-public class TestBase {
+public class TestBase10 {
     RegistrationPage registrationPage = new RegistrationPage();
 
     @BeforeAll
