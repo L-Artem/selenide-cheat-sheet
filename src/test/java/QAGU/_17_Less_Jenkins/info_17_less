@@ -1,0 +1,19 @@
+54:10 - конфиг грэдл на запуск тестов из консоли
+
+https://selenoid.autotests.cloud/#/capabilities/
+user1
+1234
+
+01:32:40 - удаленный запуск тестов
+Configuration.remote = "http://user1:1234@selenoid.autotests.cloud/wd/hub"
+
+записывать видео - 01:38:30
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("browserName", "chrome");
+        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+                "enableVNC", true,
+                "enableVideo", true
+        ));
+
+01:48:30 - добавление степов аллюр
