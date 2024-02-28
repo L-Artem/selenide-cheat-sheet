@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 15less - Docker">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_18_Less_Jenkins_Param/inf0_18_less" afterDir="false" />
-    </list>
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 18less - terminal" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -404,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709100723671</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="001 - 18less - terminal">
+      <option name="closed" value="true" />
+      <created>1709149403049</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1709149403049</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -470,7 +476,8 @@
     <MESSAGE value="002 - 12less - JUnit" />
     <MESSAGE value="001 - 13less - JUnit" />
     <MESSAGE value="001 - 15less - Docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 - 15less - Docker" />
+    <MESSAGE value="001 - 18less - terminal" />
+    <option name="LAST_COMMIT_MESSAGE" value="001 - 18less - terminal" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
