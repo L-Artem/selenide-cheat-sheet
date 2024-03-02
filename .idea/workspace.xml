@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 18less - terminal">
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="003 - 18less - terminal">
+      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_19_Less_TelegramBot/info_19_less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_18_Less_Jenkins_Param/inf0_18_less" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_18_Less_Jenkins_Param/inf0_18_less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709151387915</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="003 - 18less - terminal">
+      <option name="closed" value="true" />
+      <created>1709189312107</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1709189312107</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,7 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="001- 03les" />
     <MESSAGE value="002- 03les" />
     <MESSAGE value="001- 04les" />
     <MESSAGE value="002- 04les" />
@@ -488,7 +495,8 @@
     <MESSAGE value="001 - 15less - Docker" />
     <MESSAGE value="001 - 18less - terminal" />
     <MESSAGE value="002 - 18less - terminal" />
-    <option name="LAST_COMMIT_MESSAGE" value="002 - 18less - terminal" />
+    <MESSAGE value="003 - 18less - terminal" />
+    <option name="LAST_COMMIT_MESSAGE" value="003 - 18less - terminal" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
