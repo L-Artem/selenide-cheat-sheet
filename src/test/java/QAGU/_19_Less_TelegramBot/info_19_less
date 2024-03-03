@@ -1,2 +1,27 @@
 12:30 добавление браузера в селенид, например яндекс браузера.
+23:34 Jenkins параметризированная сборка
+29:00 команда для запуска библиотеки (telegram notification) которая занимается отправкой уведомлений
+Бот с уведомлениями
+https://github.com/qa-guru/allure-notifications
 
+40:00 непосредственно настройка бота
+
+1:14:00 Slack
+
+
+
+https://crontab.guru/ крон формат времени */1 * * * *
+
+Конспекты лекций
+https://github.com/qa-guru/knowledge-base
+
+Ссылка на репозиторий
+https://github.com/qa-guru/demoqa-tests-17/tree/notifications
+
+Ссылка на Jenkins
+https://jenkins.autotests.cloud/job/teacher-iTerkin-qa_guru_17_notifications/
+
+Зарегистрировать бота в Telgram
+@BotFather
+Узнать chat ID (вместо Your_BOTToken вставить токена вашего бота)
+https://api.telegram.org/bot{secret_bot}/getUpdates
