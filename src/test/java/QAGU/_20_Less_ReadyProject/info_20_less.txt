@@ -1,0 +1,69 @@
+37:00 - библиотека "owner" предоставляет простой доступ к конфиг файлу.
+
+http://youtu.be/Hu9K3kPbk0w - QA.GURU 13-ый поток. Артём Ерошенко. «Библиотека Owner»
+
+
+
+
+
+Делаем небольшой проект:
+- разрабатываем 5-10 простых автотестов на сайт из вакансии
+  - создаем задачу в Jenkins
+- прячем секретные данные с owner
+- настраиваем Allure-отчет, добавляем вложения:
+-- снимки экрана
+-- логи браузера
+-- видеозапись теста
+-- настраиваем уведомления в telegram / slack
+- тест-план Allure TestOps - с ручными и автоматизированными тестами
+- интеграцию с Jira
+
+По мере прохождения курса добавим сюда:
+- автотесты на API
+
+
+
+Ссылка на jenkins
+https://jenkins.autotests.cloud/job/teacher-iTerkin-qa_guru_jenkins_16_testops_jira
+
+Конспект лекций
+https://github.com/qa-guru/knowledge-base
+
+https://t.me/autotests_cloud_chat/2267
+
+Доступы к сервисам
+https://jira.autotests.cloud/
+jira8 jira8
+https://allure.autotests.cloud
+allure8 allure8
+
+Генератор проектов (временно не работает)
+https://start.autotests.cloud
+
+
+
+Оформляем README.md
+Необходимо посмотреть дополнительное занятие - Дополнительное занятие. Станислав Васенков. «GitHub. Readme / Markdown» (в дополнительных видео)
+
+Обязательно должны быть:
+- Команды запуска тестов из терминала с пояснением ключей
+- История со скриншотами - где что происходит, запускается
+- Гифка с тестом (из видео в selenoid)
+- Иконки используемого стека для красоты
+
+Примеры домашних работ студентов прошлого потока:
+https://github.com/firerinka/qa.quru.homework15.fastProject/blob/master/src/test/java/jetbrains/products/tests/ProductPageTests.java
+https://github.com/XeniaBogatko/pilulka-project/tree/master
+https://github.com/Nazilya/sber-rabota
+https://github.com/GhostLeen/steam_testing_project
+https://github.com/andreyzavrichko/qaguru_homework_12.5
+https://github.com/viktornuts/lesson_13
+https://github.com/berezkindv42/berezkindv_performance_lab_autotests_project
+https://github.com/SashkaDikaya/QAGuruTask13
+https://github.com/nkramar/T1_Automated_Tests
+https://jenkins.autotests.cloud/job/nkramar_T1_Automated_Tests
+https://github.com/grad0ff/Itoolabs.git
+https://jenkins.autotests.cloud/job/013-grad0ff-14-itoolabs/
+https://github.com/Maverik2047/IBS-tests
+https://jenkins.autotests.cloud/job/IBS_test/
+https://github.com/vonoelv/bookmate-test-project
