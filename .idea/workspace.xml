@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 13less - JUnit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/pages/components/RegistrationResultsModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/RegistrationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/RegistrationWithCommentsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/RegistrationWithJavaFakerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/RegistrationWithPageObjectsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/RegistrationWithRandomUtilsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/RegistrationWithTestDataTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/demoqa/tests/TextBoxTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QAGU/_14_Less_DataGeneration/info" afterDir="false" />
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 19less - terminal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cheatSheet/CSS.selectors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_19_Less_TelegramBot/info_19_less" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_19_Less_TelegramBot/info_19_less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +31,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -90,9 +77,12 @@
     &quot;JUnit.FilesParsingTest.zipParseTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SelenideFilesTest.selenideLoadTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SelenideFilesTest.selenideUploadFile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SelenideTest.testIssueSearch.executor&quot;: &quot;Run&quot;,
     &quot;JUnit._12_Less_JUnit5.simpleTest.executor&quot;: &quot;Run&quot;,
     &quot;Maven.selenide-cheat-sheet [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.selenide-cheat-sheet [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.selenide-cheat-sheet [io.qameta.allure:allure-maven:2.12.0:serve].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.selenide-cheat-sheet [verify].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -112,23 +102,13 @@
       <recent name="QAGU" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FilesParsingTest.jsonParseImprovedTest">
-    <configuration name="FilesParsingTest.csvParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide-cheat-sheet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
-      <option name="METHOD_NAME" value="csvParseTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SelenideTest.testIssueSearch">
     <configuration name="FilesParsingTest.jsonParseImprovedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
@@ -193,13 +173,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelenideTest.testIssueSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenide-cheat-sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QAGU._15_Less_Allure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QAGU._15_Less_Allure" />
+      <option name="MAIN_CLASS_NAME" value="QAGU._15_Less_Allure.SelenideTest" />
+      <option name="METHOD_NAME" value="testIssueSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelenideTest.testIssueSearch" />
         <item itemvalue="JUnit.FilesParsingTest.zipParseTest" />
         <item itemvalue="JUnit.FilesParsingTest.xlsParseTest" />
         <item itemvalue="JUnit.FilesParsingTest.jsonParseTest" />
         <item itemvalue="JUnit.FilesParsingTest.jsonParseImprovedTest" />
-        <item itemvalue="JUnit.FilesParsingTest.csvParseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +389,55 @@
       <option name="project" value="LOCAL" />
       <updated>1707850995801</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="001 - 15less - Docker">
+      <option name="closed" value="true" />
+      <created>1708878980529</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708878980529</updated>
+    </task>
+    <task id="LOCAL-00026" summary="001 - 15less - Docker">
+      <option name="closed" value="true" />
+      <created>1709100723671</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709100723671</updated>
+    </task>
+    <task id="LOCAL-00027" summary="001 - 18less - terminal">
+      <option name="closed" value="true" />
+      <created>1709149403049</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1709149403049</updated>
+    </task>
+    <task id="LOCAL-00028" summary="002 - 18less - terminal">
+      <option name="closed" value="true" />
+      <created>1709151387915</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1709151387915</updated>
+    </task>
+    <task id="LOCAL-00029" summary="003 - 18less - terminal">
+      <option name="closed" value="true" />
+      <created>1709189312107</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1709189312107</updated>
+    </task>
+    <task id="LOCAL-00030" summary="001 - 19less - terminal">
+      <option name="closed" value="true" />
+      <created>1709370749856</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1709370749856</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,9 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="frst" />
-    <MESSAGE value="001- 03les" />
-    <MESSAGE value="002- 03les" />
     <MESSAGE value="001- 04les" />
     <MESSAGE value="002- 04les" />
     <MESSAGE value="003- 04les" />
@@ -458,7 +499,12 @@
     <MESSAGE value="004 - 11less - OOP" />
     <MESSAGE value="002 - 12less - JUnit" />
     <MESSAGE value="001 - 13less - JUnit" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 - 13less - JUnit" />
+    <MESSAGE value="001 - 15less - Docker" />
+    <MESSAGE value="001 - 18less - terminal" />
+    <MESSAGE value="002 - 18less - terminal" />
+    <MESSAGE value="003 - 18less - terminal" />
+    <MESSAGE value="001 - 19less - terminal" />
+    <option name="LAST_COMMIT_MESSAGE" value="001 - 19less - terminal" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
