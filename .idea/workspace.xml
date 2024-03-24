@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="001 - 20 less - project">
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 20_1 less - api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_20_1_Less_REST_API/info_20_1_less.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_20_1_Less_REST_API/info_20_1_less.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,7 +453,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709462895001</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="002 - 20 less - project">
+      <option name="closed" value="true" />
+      <created>1709620747442</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1709620747442</updated>
+    </task>
+    <task id="LOCAL-00034" summary="002 - 20_1 less - api">
+      <option name="closed" value="true" />
+      <created>1711003371560</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1711003371560</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,8 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="002- 04les" />
-    <MESSAGE value="003- 04les" />
     <MESSAGE value="004- 04les" />
     <MESSAGE value="005- 04les" />
     <MESSAGE value="006 - 04les" />
@@ -519,7 +534,9 @@
     <MESSAGE value="003 - 18less - terminal" />
     <MESSAGE value="001 - 19less - terminal" />
     <MESSAGE value="001 - 20 less - project" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 - 20 less - project" />
+    <MESSAGE value="002 - 20 less - project" />
+    <MESSAGE value="002 - 20_1 less - api" />
+    <option name="LAST_COMMIT_MESSAGE" value="002 - 20_1 less - api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

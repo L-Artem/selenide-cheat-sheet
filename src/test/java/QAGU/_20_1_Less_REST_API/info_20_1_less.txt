@@ -1,1 +1,6 @@
 https://demowebshop.tricentis.com/
+
+swager
+
+RestAssured awaitility
+есть проект на гитхабе
