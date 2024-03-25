@@ -4,3 +4,5 @@ swager
 
 RestAssured awaitility
 есть проект на гитхабе
+
+1:32:40 - постман
