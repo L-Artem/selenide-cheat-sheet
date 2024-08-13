@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 20_1 less - api">
+    <list default="true" id="70b7ec5a-1f0e-4277-94a0-d79c65722bcf" name="Changes" comment="002 - 20_1 less - api3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/_Map/_HashMap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_Map/_LinkedHashMap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_interface/Aircraft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_interface/Butterfly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_interface/ExampleInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_interface/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_lambda_interface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_list/_LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_list/_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_optional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_sinchronized/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_sinchronized/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_stream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_thread/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_threadPool/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/ExampleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test1/finalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_20_1_Less_REST_API/info_20_1_less.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_20_1_Less_REST_API/info_20_1_less.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_03_TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_03_TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/pages/CalendarComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAGU/_10_Less_PageObject/pages/CalendarComponent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,37 +88,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilesParsingTest.csvParseTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilesParsingTest.jsonParseImprovedTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilesParsingTest.jsonParseTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FilesParsingTest.pdfParseTest.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.FilesParsingTest.xlsParseTest.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.FilesParsingTest.zipParseTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SelenideFilesTest.selenideLoadTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SelenideFilesTest.selenideUploadFile.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SelenideTest.testIssueSearch.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit._12_Less_JUnit5.simpleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.selenide-cheat-sheet [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.selenide-cheat-sheet [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.selenide-cheat-sheet [io.qameta.allure:allure-maven:2.12.0:serve].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.selenide-cheat-sheet [verify].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;NewForEducate&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Git.Selenium/selenide-cheat-sheet&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2353952&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExampleInheritance.executor": "Run",
+    "Application.ExampleInterface.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application._LinkedList.executor": "Run",
+    "Application._List.executor": "Run",
+    "Application._Map._HashMap.Main.executor": "Run",
+    "Application._Map._LinkedHashMap.Main.executor": "Run",
+    "Application._lambda_interface.Main.executor": "Run",
+    "Application._thread.Main.executor": "Run",
+    "Application._threadPool.Main.executor": "Run",
+    "Application.finalTest.executor": "Run",
+    "JUnit.FilesParsingTest.csvParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.jsonParseImprovedTest.executor": "Run",
+    "JUnit.FilesParsingTest.jsonParseTest.executor": "Run",
+    "JUnit.FilesParsingTest.pdfParseTest.executor": "Debug",
+    "JUnit.FilesParsingTest.xlsParseTest.executor": "Debug",
+    "JUnit.FilesParsingTest.zipParseTest.executor": "Run",
+    "JUnit.SelenideFilesTest.selenideLoadTest.executor": "Run",
+    "JUnit.SelenideFilesTest.selenideUploadFile.executor": "Run",
+    "JUnit.SelenideTest.testIssueSearch.executor": "Run",
+    "JUnit._12_Less_JUnit5.simpleTest.executor": "Run",
+    "Maven.selenide-cheat-sheet [clean].executor": "Run",
+    "Maven.selenide-cheat-sheet [install].executor": "Run",
+    "Maven.selenide-cheat-sheet [io.qameta.allure:allure-maven:2.12.0:serve].executor": "Run",
+    "Maven.selenide-cheat-sheet [verify].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "NewForEducate",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Git.Selenium/selenide-cheat-sheet/src/test/java/QAGU",
+    "last_opened_file_path": "C:/GIT.Repository/qatoria",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25172412",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="QAGU" />
@@ -108,94 +141,79 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelenideTest.testIssueSearch">
-    <configuration name="FilesParsingTest.jsonParseImprovedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application._lambda_interface.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_sinchronized.Main" />
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
+          <option name="PATTERN" value="_sinchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
-      <option name="METHOD_NAME" value="jsonParseImprovedTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesParsingTest.jsonParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_sinchronized.Main2" />
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
+          <option name="PATTERN" value="_sinchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
-      <option name="METHOD_NAME" value="jsonParseTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesParsingTest.xlsParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_lambda_interface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_lambda_interface.Main" />
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
+          <option name="PATTERN" value="_lambda_interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
-      <option name="METHOD_NAME" value="xlsParseTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesParsingTest.zipParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_threadPool.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_threadPool.Main" />
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU._13_Less_Files.*" />
+          <option name="PATTERN" value="_threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="QAGU._13_Less_Files" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._13_Less_Files.FilesParsingTest" />
-      <option name="METHOD_NAME" value="zipParseTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTest.testIssueSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_thread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_thread.Main" />
       <module name="selenide-cheat-sheet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QAGU._15_Less_Allure.*" />
+          <option name="PATTERN" value="_thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="QAGU._15_Less_Allure" />
-      <option name="MAIN_CLASS_NAME" value="QAGU._15_Less_Allure.SelenideTest" />
-      <option name="METHOD_NAME" value="testIssueSearch" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SelenideTest.testIssueSearch" />
-        <item itemvalue="JUnit.FilesParsingTest.zipParseTest" />
-        <item itemvalue="JUnit.FilesParsingTest.xlsParseTest" />
-        <item itemvalue="JUnit.FilesParsingTest.jsonParseTest" />
-        <item itemvalue="JUnit.FilesParsingTest.jsonParseImprovedTest" />
+        <item itemvalue="Application._lambda_interface.Main" />
+        <item itemvalue="Application._threadPool.Main" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._thread.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +487,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711003371560</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="002 - 20_1 less - api2">
+      <option name="closed" value="true" />
+      <created>1711262219325</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1711262219326</updated>
+    </task>
+    <task id="LOCAL-00036" summary="002 - 20_1 less - api2">
+      <option name="closed" value="true" />
+      <created>1711367766855</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1711367766855</updated>
+    </task>
+    <task id="LOCAL-00037" summary="002 - 20_1 less - api3">
+      <option name="closed" value="true" />
+      <created>1711369308809</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1711369308809</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,8 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="004- 04les" />
-    <MESSAGE value="005- 04les" />
     <MESSAGE value="006 - 04les" />
     <MESSAGE value="001 - 05les" />
     <MESSAGE value="001 - 07les" />
@@ -536,7 +576,9 @@
     <MESSAGE value="001 - 20 less - project" />
     <MESSAGE value="002 - 20 less - project" />
     <MESSAGE value="002 - 20_1 less - api" />
-    <option name="LAST_COMMIT_MESSAGE" value="002 - 20_1 less - api" />
+    <MESSAGE value="002 - 20_1 less - api2" />
+    <MESSAGE value="002 - 20_1 less - api3" />
+    <option name="LAST_COMMIT_MESSAGE" value="002 - 20_1 less - api3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
